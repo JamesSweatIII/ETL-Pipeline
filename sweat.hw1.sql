@@ -53,6 +53,7 @@ dept varchar(100)
 
 );
 
+
 select min(salary) from salaries;
 
 select emp_no from salaries where salary="38623";

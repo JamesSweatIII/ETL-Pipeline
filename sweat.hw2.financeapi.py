@@ -9,7 +9,6 @@ symbol = input("Enter stock ticker symbol: ")
 url = "https://yfapi.net/v6/finance/quote"
 querystring = {"symbols": symbol}
 headers = {'x-api-key': "4su9PNd3RD77y8pmLw8r2866Hz6WCcBk8s7NmRgL"}
-
 response = requests.request("GET", url, headers=headers, params=querystring)
 
 # Check if API call was successful
