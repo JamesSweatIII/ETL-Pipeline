@@ -1,3 +1,4 @@
+
 -- Databricks notebook source
 -- MAGIC %md
 -- MAGIC ### Extract and Load Data Lab
